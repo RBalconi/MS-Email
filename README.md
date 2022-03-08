@@ -65,7 +65,7 @@ Response:
 
 1. Acesse o RabbitMQ Management </br>
 2. Na fila ``ms.email`` vá na sessão ``Publish message`` </br>
-3. E em ``Payload`` enviei a seguinte estrutura JSON: </br>
+3. E em ``Payload`` envie a seguinte estrutura JSON: </br>
 ```json
 {
     "ownerRef": "Rafael",
