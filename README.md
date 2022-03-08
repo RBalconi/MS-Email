@@ -14,7 +14,7 @@
 
 </p>
 
-## - Como usar
+## Como usar
 - Precisará criar um banco de dados com o nome `ms-email` em PostgreSQL, para isso rode o Script localizado na raiz do projeto:
   ```
   $ ./script-create-data-base.sh
@@ -27,8 +27,8 @@
 
 - Entao execute a API pela IDE;
 
-### Abaixo exemplo de uso com 
-- Comunicação Sincrona:
+## Exemplo de uso
+### Comunicação Sincrona:
 
 > BRANCH: ``main``
 
@@ -57,7 +57,9 @@ Response:
     "situation": "SENT"
 }
 ```
-- Comunicação Assíncrona:
+</br>
+
+### Comunicação Assíncrona:
 
 > BRANCH: ``RabbitMQ``
 
