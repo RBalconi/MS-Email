@@ -1,4 +1,4 @@
-package com.ms.email.enumerations;
+package com.ms.email.application.domain.enumerations;
 
 import java.util.Arrays;
 

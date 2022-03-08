@@ -1,6 +1,6 @@
-package com.ms.email.models;
+package com.ms.email.adapters.outbound.persistence.entities;
 
-import com.ms.email.enumerations.Situation;
+import com.ms.email.application.domain.enumerations.Situation;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -12,7 +12,7 @@ import java.util.UUID;
 @Data
 @Entity
 @Table(name = "EMAIL")
-public class EmailModel implements Serializable {
+public class EmailEntity implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
