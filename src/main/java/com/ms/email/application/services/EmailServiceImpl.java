@@ -19,18 +19,6 @@ public class EmailServiceImpl implements EmailServicePort {
         this.sendEmailServicePort = sendEmailServicePort;
     }
 
-//    public EmailEntity sendEmail(EmailEntity emailEntity) {
-//        emailEntity.setSendDate(LocalDateTime.now());
-//        try {
-//
-//            emailEntity.setSituation(Situation.SENT);
-//        } catch (MailException e) {
-//            emailEntity.setSituation(Situation.ERROR);
-//        } finally {
-//            return emailRepositoryPort.save(emailEntity);
-//        }
-//    }
-
     @Override
     public Email sendEmail(Email email) {
         email.setSendDate(LocalDateTime.now());
