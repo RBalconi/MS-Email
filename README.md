@@ -61,7 +61,8 @@ Response:
 
 ### Comunicação Assíncrona:
 
-> BRANCH: ``RabbitMQ``
+> BRANCH: ``RabbitMQ`` <br/>
+> BRANCH: ``HexArch`` (com Arquitetura Hexagonal)
 
 1. Acesse o RabbitMQ Management </br>
 2. Na fila ``ms.email`` vá na sessão ``Publish message`` </br>
